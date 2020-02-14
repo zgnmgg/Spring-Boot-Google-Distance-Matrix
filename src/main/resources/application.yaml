@@ -1,0 +1,10 @@
+server:
+  port: 4422
+distance:
+  matrix:
+    core:
+      url: "https://maps.googleapis.com/maps/api/distancematrix/json"
+    api:
+      key: "your_api_key"
+    mode: "driving"
+    units: "metric"
